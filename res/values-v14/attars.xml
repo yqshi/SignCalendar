@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SignCalendar">
+        //星期（周几）的Text的背景
+        <attr name="week_title_bg" format="color" />
+        //星期（周几）的Text的Size
+        <attr name="week_title_size" format="dimension" />
+        //星期（周几）的Text的颜色
+        <attr name="week_title_color" format="color" />
+        //日的背景
+        <attr name="day_bg" format="color" />
+        //日的Text的Size
+        <attr name="day_size" format="dimension" />
+        //上一个月或者是下一个月 日的颜色
+        <attr name="day_current_month_color" format="color" />
+        //当前月份，日的Text颜色
+        <attr name="day_next_month_color" format="color" />
+        //当日Text的颜色
+        <attr name="current_day_color" format="color" />
+        //签到时设置签到图片
+        <attr name="sign_calendar_clicked" format="reference" />
+    </declare-styleable>
+</resources>
